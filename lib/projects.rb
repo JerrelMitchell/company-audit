@@ -7,5 +7,4 @@ class Project
     @project_start_date = project_start_date
     @project_end_date = project_end_date
   end
-
 end

@@ -19,5 +19,4 @@ class CompanyTest < Minitest::Test
     assert_equal [], company.projects
     assert_equal [], company.timesheets
   end
-
 end

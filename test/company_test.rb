@@ -12,7 +12,11 @@ class CompanyTest < Minitest::Test
   end
 
   def test_attributes
+    company = Company.new
 
+    assert_equal [], company.employees
+    assert_equal [], company.projects
+    assert_equal [], company.timesheets
   end
 
 end

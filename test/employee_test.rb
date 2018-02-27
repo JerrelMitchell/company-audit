@@ -17,4 +17,6 @@ class EmployeeTest < Minitest::Test
     assert_equal 2016-01-01, employee.start_date
     assert_equal 2018-02-20, employee.end_date
   end
+
+
 end

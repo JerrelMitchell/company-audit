@@ -12,6 +12,7 @@ class CompanyTest < Minitest::Test
   end
 
   def test_attributes
+    skip
     company = Company.new
 
     assert_equal [], company.employees
